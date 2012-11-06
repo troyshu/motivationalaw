@@ -1,3 +1,6 @@
+require 'net/http'
+require 'rexml/document'
+
 class WallpapersController < ApplicationController
   # GET /wallpapers
   # GET /wallpapers.json
@@ -25,6 +28,12 @@ class WallpapersController < ApplicationController
   # GET /wallpapers/new.json
   def new
     @wallpaper = Wallpaper.new
+    
+    # get random flickr pic, and quote from db
+    flickr_url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=90485e931f687a9b9c2a66bf58a3861a&text=landscape&safe_search=1&content_type=1&sort=interestingness-desc&per_page=20"
+    flickr_xml = Net::HTTP.get_response(URI.parse(flickr_url))
+
+
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,7 +49,14 @@ class WallpapersController < ApplicationController
   # POST /wallpapers
   # POST /wallpapers.json
   def create
-    @wallpaper = Wallpaper.new(params[:wallpaper])
+    @wallpaper = Wallpaper.new
+
+
+    #give it a random quote
+    random_quote = Quote.order("RANDOM()").first
+    @wallpaper.quote_id = random_quote.id
+
+    #get random flickr photo
 
     respond_to do |format|
       if @wallpaper.save
