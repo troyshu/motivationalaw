@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"wo",
+				"wordTimer"
+			],
+			[
+				"split",
+				"splitText"
+			],
+			[
+				"word",
+				"wordIndex"
+			],
+			[
+				"description",
+				"description"
+			],
+			[
+				"Ad",
+				"ADD"
+			],
+			[
+				"validates",
+				"validates_length_of"
+			],
+			[
+				"submitt",
+				"submitter_email"
+			],
+			[
+				"creat",
+				"create_idea_string"
+			],
+			[
+				"submit",
+				"submitter_email"
+			],
+			[
+				"redi",
+				"redirect_to"
+			],
+			[
+				"pomodor",
+				"pomodoro_tags"
+			],
+			[
+				"pomo",
+				"pomodoro_tags"
+			],
+			[
+				"tag",
+				"tag_status"
+			],
+			[
+				"new",
+				"new_data_toGraph"
+			],
+			[
+				"updated",
+				"updated_at"
+			],
+			[
+				"raw",
+				"raw_pomodoros"
+			],
+			[
+				"data_array",
+				"data_array_toAdd"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"Pomodo",
+				"Pomodoros"
+			],
+			[
+				"grouped",
+				"grouped_pomodoros"
+			],
+			[
+				"updat",
+				"updated_at"
+			],
+			[
+				"typ",
+				"type_label"
+			],
+			[
+				"time",
+				"timeframe"
+			],
+			[
+				"pomodoros",
+				"pomodoros"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"unfinishe",
+				"unfinished_pomodoro"
+			],
+			[
+				"uf",
+				"unfinished_pomodoro"
+			],
+			[
+				"unfinis",
+				"unfinished_pomodoro"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"have_",
+				"have_link"
+			],
+			[
+				"sign",
+				"signin_path"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"shoul",
+				"should_not"
+			],
+			[
+				"WOR",
+				"WORKING"
+			],
+			[
+				"WORK",
+				"WORK_READY"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"submi",
+				"submit"
+			],
+			[
+				"gravat",
+				"gravatar_url"
+			],
+			[
+				"gravatar",
+				"gravatar_id"
+			],
+			[
+				"it",
+				"it	it \"should description\" do … end"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 348.0,
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 251.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/troyshu/cext_projects/spreed/popup.html",
+		"/home/troyshu/cext_projects/spreed/popup.js",
+		"/home/troyshu/cext_projects/spreed/menu.js",
+		"/home/troyshu/cext_projects/spreed/jquery.fittext.js",
+		"/home/troyshu/cext_projects/spreed/app.html",
+		"/home/troyshu/cext_projects/spreed/style.css",
+		"/home/troyshu/cext_projects/spreed/app.js",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page1.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page2.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page3.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page4.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page5.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page6.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page7.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page8.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/2week_page9.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page1.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page2.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page3.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page4.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page5.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page6.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page7.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page8.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/3week_page9.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page1.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page2.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page3.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page4.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page5.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page6.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page7.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page8.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/4week_page9.html",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/contact.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/faq.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/footer.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/header.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/index.php",
+		"/media/Windows7_OS/Users/Troy Shu/Documents/Business/Web Development/pattycproperty/site/programs/styles.css",
+		"/home/troyshu/Desktop/davatron5000-FitText.js-fa3b29a/example.html",
+		"/media/Windows7_OS/Users/Troy Shu/AppData/Roaming/FileZilla/sitemanager.xml",
+		"/home/troyshu/cext_projects/spreed/spreed.js",
+		"/home/troyshu/cext_projects/spreed/other.js",
+		"/home/troyshu/cext_projects/context_menus/sample.js",
+		"/home/troyshu/cext_projects/tutorial/popup.js",
+		"/home/troyshu/cext_projects/tutorial/manifest.json",
+		"/home/troyshu/rails_projects/ideaexchange/app/views/ideas/_form.html.erb",
+		"/home/troyshu/rails_projects/ideaexchange/db/ideas.txt",
+		"/home/troyshu/rails_projects/ideaexchange/app/models/idea.rb",
+		"/home/troyshu/Dropbox/cis240_lc4/sum_numbers.asm",
+		"/home/troyshu/Dropbox/cis240_lc4/prime_script",
+		"/home/troyshu/Dropbox/cis240_lc4/prime.asm",
+		"/home/troyshu/Dropbox/cis240_lc4/setup.txt",
+		"/home/troyshu/Dropbox/cis240_lc4/multiply_script.txt",
+		"/home/troyshu/Dropbox/cis240_lc4/sqrt_script",
+		"/home/troyshu/Dropbox/cis240_lc4/counter.asm",
+		"/home/troyshu/Dropbox/cis240_lc4/multiply.asm",
+		"/home/troyshu/rails_projects/ideaexchange/config/initializers/recaptcha.rb",
+		"/home/troyshu/rails_projects/ideaexchange/app/views/ideas/new.html.erb",
+		"/home/troyshu/rails_projects/ideaexchange/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/troyshu/rails_projects/ideaexchange/app/assets/stylesheets/application.css",
+		"/home/troyshu/rails_projects/ideaexchange/app/controllers/static_pages_controller.rb",
+		"/home/troyshu/rails_projects/ideaexchange/app/assets/stylesheets/custom.css.scss",
+		"/home/troyshu/rails_projects/ideaexchange/app/controllers/ideas_controller.rb",
+		"/home/troyshu/rails_projects/ideaexchange/app/views/idea_mailer/approve_idea_email.html.erb",
+		"/home/troyshu/rails_projects/ideaexchange/app/mailers/idea_mailer.rb",
+		"/home/troyshu/rails_projects/ideaexchange/db/migrate/20121005134818_add_email_to_ideas.rb",
+		"/home/troyshu/rails_projects/ideaexchange/Gemfile",
+		"/home/troyshu/rails_projects/ideaexchange/public/index.html",
+		"/home/troyshu/rails_projects/ideaexchange/app/views/ideas/create.html.erb",
+		"/home/troyshu/rails_projects/ideaexchange/Gemfile.lock",
+		"/home/troyshu/rails_projects/ideaexchange/db/migrate/20121005014853_add_approved_to_ideas.rb",
+		"/home/troyshu/rails_projects/evening-earth-7467/Procfile",
+		"/home/troyshu/rails_projects/evening-earth-7467/config.ru",
+		"/home/troyshu/rails_projects/evening-earth-7467/app.rb",
+		"/home/troyshu/rails_projects/evening-earth-7467/dev.env",
+		"/home/troyshu/rails_projects/evening-earth-7467/Gemfile",
+		"/home/troyshu/rails_projects/evening-earth-7467/.env",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/about.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/helpers/static_pages_helper.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/helpers/users_helper.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/helpers/sessions_helper.rb",
+		"/home/troyshu/rails_projects/pomodoro/reddit productivity post",
+		"/home/troyshu/Desktop/emails.csv",
+		"/home/troyshu/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/public/css/jquery.tagit.css",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/layouts/application.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/help.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/config/routes.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/Gemfile",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/controllers/application_controller.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/users/show.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/config/database.yml.pg",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/config/database.yml",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/Gemfile.lock",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/public/notready.html",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/helpers/application_helper.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/helpers/pomodoros_helper.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/controllers/sessions_controller.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/_timer_js.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/models/user.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/users/_show_user_charts.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/layouts/_footer.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/users/_warning_starter_limit.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/home.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/config/application.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/config/environment.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/assets/stylesheets/application.css",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/assets/javascripts/application.js",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/assets/stylesheets/jquery.tagsinput.css",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/public/tagit.js",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/assets/javascripts/tagit.js",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/timer_header.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/assets/javascripts/tagbox.js",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/models/pomodoro.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/controllers/users_controller.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/timer.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/pricing.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/controllers/pomodoros_controller.rb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/pomodoros/create.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/contact.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/users/new.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/layouts/_header.html.erb",
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/public/premiumonly.html"
+	],
+	"find":
+	{
+		"height": 88.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"localstor",
+			"locals",
+			"selection",
+			" ",
+			"flash",
+			" &reg;",
+			"Pomodoro Technique",
+			"Pomodoro",
+			"Pomodoros",
+			",",
+			", ",
+			"\"",
+			"where",
+			"user_l",
+			"in getpr",
+			"in getpremium",
+			"openTimerPopup",
+			"openTimer",
+			"20px",
+			"tags",
+			"console.",
+			"pomodoros in ",
+			"tags for tag",
+			"color",
+			"height",
+			"strong",
+			"Pomos",
+			"form",
+			"user path",
+			"css",
+			"styl",
+			"css",
+			"}",
+			">",
+			"pomodoros s",
+			"moving onto",
+			"in get_data",
+			"show data",
+			"STORE LOCATION",
+			"ssl",
+			"rails",
+			"rail",
+			"rails",
+			"					<",
+			"user_path",
+			"visit",
+			"config.acti",
+			"signed_in",
+			"  \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"&nbsp;",
+			"&reg;",
+			"Pomodoro Technique &reg;",
+			"pomodoros",
+			"",
+			",",
+			", \\r",
+			"",
+			"POMOS"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.tests":
+	{
+		"height": 184.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}
