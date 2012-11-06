@@ -29,11 +29,19 @@ class WallpapersController < ApplicationController
   def new
     @wallpaper = Wallpaper.new
     
-    # get random flickr pic, and quote from db
+    
     flickr_url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=90485e931f687a9b9c2a66bf58a3861a&text=landscape&safe_search=1&content_type=1&sort=interestingness-desc&per_page=20"
     flickr_xml = Net::HTTP.get_response(URI.parse(flickr_url))
+    flickr_doc = REXML::Document.new(flickr_xml.body)
 
+    # get random flickr pic, and quote from db
+    flickr_photos = []
+    flickr_doc.elements.each("*/photos/photo") { |photo| flickr_photos.push(photo) }
+        
+    logger.debug("flickr_photos array has #{flickr_photos.count} photos")
 
+    random_photo = flickr_photos.shuffle.first
+    logger.debug("random photo: #{random_photo.attributes["id"]} id")
 
     respond_to do |format|
       format.html # new.html.erb
