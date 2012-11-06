@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Url:</b>
+  <%= @wallpaper.url %>
+</p>
+
+<p>
+  <b>Quote:</b>
+  <%= @wallpaper.quote_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_wallpaper_path(@wallpaper) %> |
+<%= link_to 'Back', wallpapers_path %>
