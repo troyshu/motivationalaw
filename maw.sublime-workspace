@@ -187,6 +187,47 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/wallpapers/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/wallpapers_controller.rb",
+			"settings":
+			{
+				"buffer_size": 3476,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "log/development.log",
+			"settings":
+			{
+				"buffer_size": 414986,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "example_photos_xml",
+			"settings":
+			{
+				"buffer_size": 3706,
+				"line_ending": "Unix",
+				"name": "<rsp stat=\"ok\">"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -220,6 +261,10 @@
 	},
 	"file_history":
 	[
+		"/home/troyshu/rails_projects/maw/Gemfile",
+		"/home/troyshu/rails_projects/maw/app/models/wallpaper.rb",
+		"/home/troyshu/rails_projects/maw/lib/tasks/sample_data.rake",
+		"/home/troyshu/rails_projects/maw/db/migrate/20121106205818_create_wallpapers.rb",
 		"/home/troyshu/cext_projects/spreed/popup.html",
 		"/home/troyshu/cext_projects/spreed/popup.js",
 		"/home/troyshu/cext_projects/spreed/menu.js",
@@ -343,11 +388,7 @@
 		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/timer.html.erb",
 		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/pricing.html.erb",
 		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/controllers/pomodoros_controller.rb",
-		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/pomodoros/create.html.erb",
-		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/static_pages/contact.html.erb",
-		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/users/new.html.erb",
-		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/layouts/_header.html.erb",
-		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/public/premiumonly.html"
+		"/home/troyshu/rails_projects/pomodoro/pomodoro_app/app/views/pomodoros/create.html.erb"
 	],
 	"find":
 	{
@@ -358,6 +399,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"attributes[",
 			""
 		]
 	},
@@ -366,6 +408,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getAttribute(",
+			"random photo",
 			"div",
 			"localstor",
 			"locals",
@@ -442,8 +486,145 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/wallpapers/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/wallpapers_controller.rb",
+					"settings":
+					{
+						"buffer_size": 3476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "log/development.log",
+					"settings":
+					{
+						"buffer_size": 414986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46545.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "example_photos_xml",
+					"settings":
+					{
+						"buffer_size": 3706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<rsp stat=\"ok\">",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

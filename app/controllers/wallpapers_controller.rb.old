@@ -1,4 +1,5 @@
-require 'feedzirra'
+require 'net/http'
+require 'rexml/document'
 
 class WallpapersController < ApplicationController
   # GET /wallpapers
@@ -23,8 +24,14 @@ class WallpapersController < ApplicationController
     end
   end
 
-  def extractImg(summary) 
-    return summary.match(/<img src="(.*)"\s*\/>/)[1] #extract out the img url
+
+  def constructImageUrl(photo) 
+    return "http://farm" + photo.attributes["farm"] +
+      ".static.flickr.com/" + photo.attributes["server"] +
+      "/" + photo.attributes["id"] +
+      "_" + photo.attributes["secret"] +
+      "_z.jpg"
+      #z i 640 on longest side
   end
 
   # GET /wallpapers/new
@@ -32,16 +39,26 @@ class WallpapersController < ApplicationController
   def new
     @wallpaper = Wallpaper.new
     
-    #select random image from /r/earthporn
-    url = "http://imgur.com/r/earthporn/rss"
-    feed = Feedzirra::Feed.fetch_and_parse(url)
+    #first, make sure picutres are not more than a month old
+    min_date = (DateTime.now-1.month).to_time.to_i
+    sort_method = "relevance"
+    search_text = "landscape"
 
-    #logger.debug("feed contains #{feed.entries.count} entries")
-    random_entry = feed.entries.shuffle.first
-    #logger.debug("random entry url #{random_entry.url}")
+    flickr_url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=90485e931f687a9b9c2a66bf58a3861a&text=#{search_text}&safe_search=1&content_type=1&min_upload_date=#{min_date}&sort=#{sort_method}&per_page=10"
+    flickr_xml = Net::HTTP.get_response(URI.parse(flickr_url))
+    flickr_doc = REXML::Document.new(flickr_xml.body)
 
-    @random_img = extractImg(random_entry.summary)
-    #logger.debug("random entry img url #{@random_img}")
+    # get random flickr pic, and quote from db
+    flickr_photos = []
+    flickr_doc.elements.each("*/photos/photo") { |photo| flickr_photos.push(photo) }
+        
+    logger.debug("flickr_photos array has #{flickr_photos.count} photos")
+
+    random_photo = flickr_photos.shuffle.first
+    logger.debug("random photo: #{random_photo.attributes["id"]} id")
+
+    @random_photo_url = constructImageUrl(random_photo)
+
 
     respond_to do |format|
       format.html # new.html.erb
