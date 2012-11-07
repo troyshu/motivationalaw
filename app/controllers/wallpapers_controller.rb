@@ -1,5 +1,6 @@
 require 'feedzirra'
 require 'open-uri'
+require 'fastimage'
 
 class WallpapersController < ApplicationController
   # GET /wallpapers
@@ -44,6 +45,10 @@ class WallpapersController < ApplicationController
     @random_img = extractImg(random_entry.summary)
     #logger.debug("random entry img url #{@random_img}")
 
+    #TODO: MAKE SURE img has high enough resolution... (which is?)
+    img_size = FastImage.size(@random_img)
+    logger.debug("image size #{img_size}")
+
     #save img to public directory temporarily
     logger.debug("rails root: #{Dir.pwd}")
     File.open("#{Dir.pwd}/public/temp.jpg", "wb") do |saved_file|
@@ -52,6 +57,8 @@ class WallpapersController < ApplicationController
         saved_file.write(read_file.read)
       end
     end
+
+    #overlay quote in proper location: center of image, 
 
     respond_to do |format|
       format.html # new.html.erb

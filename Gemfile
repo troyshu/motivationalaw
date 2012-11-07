@@ -45,3 +45,4 @@ end
 
 gem 'feedzirra'
 gem 'mini_magick'
+gem 'fastimage'
