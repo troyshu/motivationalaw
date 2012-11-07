@@ -45,9 +45,18 @@ class WallpapersController < ApplicationController
     @random_img = extractImg(random_entry.summary)
     #logger.debug("random entry img url #{@random_img}")
 
-    #TODO: MAKE SURE img has high enough resolution... (which is?)
+    #TODO: MAKE SURE img has high enough resolution...
     img_size = FastImage.size(@random_img)
+    
+    min_width=700
+    min_height=500
+    while (img_size[0]<min_width or img_size[1]<min_height or img_size==nil) #make sure img is large enough
+      random_entry = feed.entries.shuffle.first
+      @random_img = extractImg(random_entry.summary)
+      img_size = FastImage.size(@random_img)
+    end
     logger.debug("image size #{img_size}")
+
 
     #save img to public directory temporarily
     logger.debug("rails root: #{Dir.pwd}")
@@ -58,7 +67,8 @@ class WallpapersController < ApplicationController
       end
     end
 
-    #overlay quote in proper location: center of image, 
+    #overlay quote in proper location: center of image x axis, below center of image y-axis, fits within a ... 200 px window?
+    
 
     respond_to do |format|
       format.html # new.html.erb
