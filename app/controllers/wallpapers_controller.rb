@@ -1,6 +1,7 @@
 require 'feedzirra'
 require 'open-uri'
 require 'fastimage'
+require 'mini_magick'
 
 class WallpapersController < ApplicationController
   # GET /wallpapers
@@ -68,7 +69,18 @@ class WallpapersController < ApplicationController
     end
 
     #overlay quote in proper location: center of image x axis, below center of image y-axis, fits within a ... 200 px window?
-    
+    img = MiniMagick::Image.from_file("#{Dir.pwd}/public/temp.jpg")
+ 
+    img.combine_options do |c|
+       c.gravity 'center'
+       c.draw 'text 0,50 \'BlahBlah wtf\''
+       c.pointsize '30'
+       c.font 'Comic.ttf'
+       c.fill("#FFFFFF")
+    end
+
+    img.write("#{Dir.pwd}/public/temp_new.jpg")
+
 
     respond_to do |format|
       format.html # new.html.erb
