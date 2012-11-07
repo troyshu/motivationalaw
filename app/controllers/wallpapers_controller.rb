@@ -1,4 +1,5 @@
 require 'feedzirra'
+require 'open-uri'
 
 class WallpapersController < ApplicationController
   # GET /wallpapers
@@ -42,6 +43,15 @@ class WallpapersController < ApplicationController
 
     @random_img = extractImg(random_entry.summary)
     #logger.debug("random entry img url #{@random_img}")
+
+    #save img to public directory temporarily
+    logger.debug("rails root: #{Dir.pwd}")
+    File.open("#{Dir.pwd}/public/temp.jpg", "wb") do |saved_file|
+      # the following "open" is provided by open-uri
+      open("#{@random_img}", 'rb') do |read_file|
+        saved_file.write(read_file.read)
+      end
+    end
 
     respond_to do |format|
       format.html # new.html.erb
